@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-image: linear-gradient(to bottom right,blue,rgb(255, 255, 255));
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    font-style:bold;
+    padding-top: 50px;
+  }
+  h1{
+    color: darkblue;
+  }
+  .container{
+    margin: auto;
+}
+        .inputs{
+            text-align: center;
+            padding-top:100px;
+        }
+            #name{
+              height:40px;
+              width:300px;
+              background-color: white;
+              border: 0.1px solid pink;
+            }
+            #surname{
+                height:40px;
+                width:300px;
+                background-color: white;
+                border: 0.1px solid pink;
+              }
+              #age{
+                height:40px;
+                width:300px;
+                background-color: white;
+                border: 0.1px solid pink;
+              }
+              #submit{
+                  font-size: 20px;
+                  text-align: center;
+                  height:35px;
+                  width:180px;
+                  background-color: blue;
+                  color: white;
+                  margin-top: 80px;
+                  justify-items: right;}
+                  #submit:hover{
+                    cursor: pointer;
+                    background-color: orchid;
+                  }
+              .popup{
+                 width:100%;
+                 height: 100%;
+                 position: fixed;
+                 top: 0;
+                 left: 0;
+                 background-color:royalblue;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 color: azure;
+                 display: none;
+
+                 
+              }
+              #btn{
+                  font-size: 50px;
+                  border:4px solid grey;
+                  border-radius: 50%;
+                  width: 200px;
+                  height: 100px;
+                  text-align: center;
+                  
+                  margin-top: 50px;
+              }
+              #btn:hover{
+                  background-color:darkblue;
+              }
+              .product{
+                width:100%;
+                height: 100%;
+                position: fixed;
+                top: 0;
+                left: 0;
+                background-color:darkgreen;
+                display: flex;
+                padding-top: 50px;
+                color: azure;
+                display: none;
+                
+             }
+             #table{
+                 
+                 color: greenyellow;
+                margin-top: 300px;
+              margin-left: 0px;}
+                 
+             #add{
+                 height:50px;
+              width:200px;
+              background-color: blue;
+              color: white;
+             }
+       
+       #upload{
+         margin-left: 100px;
+       }
+       #add:hover{
+background-color: darkgreen;
+       }
+
+    
